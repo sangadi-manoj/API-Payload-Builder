@@ -49,7 +49,9 @@ module APIPayloadBuilder
         'invalidResponse' => 400,
         'dataNotFound' => 404,
         'dataInvalid' => 422,
-        'internalServerError' => 500
+        'internalServerError' => 500,
+        'forbidden' => 403,
+        'unauthorise' => 401,
       }
       codes[error]
     end
